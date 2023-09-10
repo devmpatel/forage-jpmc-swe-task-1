@@ -36,6 +36,7 @@ def getDataPoint(quote):
     bid_price = float(quote['top_bid']['price'])
     ask_price = float(quote['top_ask']['price'])
     price = bid_price
+    print('hi')
     return stock, bid_price, ask_price, price
 
 
